@@ -7,13 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		58793743218B722500219BAD /* Redux.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58793742218B722500219BAD /* Redux.swift */; };
+		58793746218B725C00219BAD /* AppReducer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58793745218B725C00219BAD /* AppReducer.swift */; };
+		58793748218B72BC00219BAD /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58793747218B72BC00219BAD /* AppState.swift */; };
+		5879374A218B731300219BAD /* NavigationState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58793749218B731300219BAD /* NavigationState.swift */; };
+		5879374C218B747800219BAD /* NavigationReducer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5879374B218B747800219BAD /* NavigationReducer.swift */; };
+		5879374E218B751E00219BAD /* NavigationAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5879374D218B751E00219BAD /* NavigationAction.swift */; };
 		58B34E00218B428A00F7F3FA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58B34DFF218B428A00F7F3FA /* AppDelegate.swift */; };
-		58B34E02218B428A00F7F3FA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58B34E01218B428A00F7F3FA /* ViewController.swift */; };
+		58B34E02218B428A00F7F3FA /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58B34E01218B428A00F7F3FA /* RootViewController.swift */; };
 		58B34E05218B428A00F7F3FA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 58B34E03218B428A00F7F3FA /* Main.storyboard */; };
 		58B34E07218B428B00F7F3FA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 58B34E06218B428B00F7F3FA /* Assets.xcassets */; };
 		58B34E0A218B428B00F7F3FA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 58B34E08218B428B00F7F3FA /* LaunchScreen.storyboard */; };
 		58B34E15218B428B00F7F3FA /* ReduxTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58B34E14218B428B00F7F3FA /* ReduxTestTests.swift */; };
 		58B34E20218B428C00F7F3FA /* ReduxTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58B34E1F218B428C00F7F3FA /* ReduxTestUITests.swift */; };
+		58B34E33218B471100F7F3FA /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 58B34E32218B471100F7F3FA /* Podfile */; };
+		6BBC438BA95921334A861AFC /* Pods_ReduxTestTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D908AD8A4242ABA6018E4FB /* Pods_ReduxTestTests.framework */; };
+		84647108702C9A2E96A3A8A9 /* Pods_ReduxTestUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B143C05B440F5B5FC3F21B5 /* Pods_ReduxTestUITests.framework */; };
+		FB581814266503CC7DF2DC11 /* Pods_ReduxTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DF4DC4AA78D0BE6BC501027 /* Pods_ReduxTest.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +44,22 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		160706D6DAE0F3BC42025E54 /* Pods-ReduxTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReduxTest.release.xcconfig"; path = "Pods/Target Support Files/Pods-ReduxTest/Pods-ReduxTest.release.xcconfig"; sourceTree = "<group>"; };
+		2DF4DC4AA78D0BE6BC501027 /* Pods_ReduxTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ReduxTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B143C05B440F5B5FC3F21B5 /* Pods_ReduxTestUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ReduxTestUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		50CA9963E81DEBF5AB20B272 /* Pods-ReduxTestUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReduxTestUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ReduxTestUITests/Pods-ReduxTestUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		5624D23D82877EAB3A193992 /* Pods-ReduxTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReduxTest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ReduxTest/Pods-ReduxTest.debug.xcconfig"; sourceTree = "<group>"; };
+		5879373F218B686E00219BAD /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/Main.strings"; sourceTree = "<group>"; };
+		58793740218B686E00219BAD /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		58793742218B722500219BAD /* Redux.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Redux.swift; sourceTree = "<group>"; };
+		58793745218B725C00219BAD /* AppReducer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppReducer.swift; sourceTree = "<group>"; };
+		58793747218B72BC00219BAD /* AppState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
+		58793749218B731300219BAD /* NavigationState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationState.swift; sourceTree = "<group>"; };
+		5879374B218B747800219BAD /* NavigationReducer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationReducer.swift; sourceTree = "<group>"; };
+		5879374D218B751E00219BAD /* NavigationAction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationAction.swift; sourceTree = "<group>"; };
 		58B34DFC218B428A00F7F3FA /* ReduxTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReduxTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		58B34DFF218B428A00F7F3FA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		58B34E01218B428A00F7F3FA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		58B34E01218B428A00F7F3FA /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
 		58B34E04218B428A00F7F3FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		58B34E06218B428B00F7F3FA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		58B34E09218B428B00F7F3FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +70,11 @@
 		58B34E1B218B428C00F7F3FA /* ReduxTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReduxTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		58B34E1F218B428C00F7F3FA /* ReduxTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReduxTestUITests.swift; sourceTree = "<group>"; };
 		58B34E21218B428C00F7F3FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		58B34E32218B471100F7F3FA /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		85C43D8C3CD60E6899771D83 /* Pods-ReduxTestUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReduxTestUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ReduxTestUITests/Pods-ReduxTestUITests.release.xcconfig"; sourceTree = "<group>"; };
+		8930C0062E0F318DCC2862AA /* Pods-ReduxTestTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReduxTestTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ReduxTestTests/Pods-ReduxTestTests.release.xcconfig"; sourceTree = "<group>"; };
+		89EF8EDFF850A71D72FF7F63 /* Pods-ReduxTestTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReduxTestTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ReduxTestTests/Pods-ReduxTestTests.debug.xcconfig"; sourceTree = "<group>"; };
+		9D908AD8A4242ABA6018E4FB /* Pods_ReduxTestTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ReduxTestTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FB581814266503CC7DF2DC11 /* Pods_ReduxTest.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6BBC438BA95921334A861AFC /* Pods_ReduxTestTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +98,33 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84647108702C9A2E96A3A8A9 /* Pods_ReduxTestUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		46DCC8B5683CAD61E7144BD6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5624D23D82877EAB3A193992 /* Pods-ReduxTest.debug.xcconfig */,
+				160706D6DAE0F3BC42025E54 /* Pods-ReduxTest.release.xcconfig */,
+				89EF8EDFF850A71D72FF7F63 /* Pods-ReduxTestTests.debug.xcconfig */,
+				8930C0062E0F318DCC2862AA /* Pods-ReduxTestTests.release.xcconfig */,
+				50CA9963E81DEBF5AB20B272 /* Pods-ReduxTestUITests.debug.xcconfig */,
+				85C43D8C3CD60E6899771D83 /* Pods-ReduxTestUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		58793741218B68DE00219BAD /* Components */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
 		58B34DF3218B428A00F7F3FA = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +132,8 @@
 				58B34E13218B428B00F7F3FA /* ReduxTestTests */,
 				58B34E1E218B428C00F7F3FA /* ReduxTestUITests */,
 				58B34DFD218B428A00F7F3FA /* Products */,
+				46DCC8B5683CAD61E7144BD6 /* Pods */,
+				CBCBA8694EBE629A859F1E94 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,12 +150,18 @@
 		58B34DFE218B428A00F7F3FA /* ReduxTest */ = {
 			isa = PBXGroup;
 			children = (
+				58793741218B68DE00219BAD /* Components */,
+				58B34E2F218B42BE00F7F3FA /* Reducer */,
+				58B34E2E218B42B800F7F3FA /* Action */,
+				58B34E2D218B42AB00F7F3FA /* State */,
 				58B34DFF218B428A00F7F3FA /* AppDelegate.swift */,
-				58B34E01218B428A00F7F3FA /* ViewController.swift */,
+				58B34E01218B428A00F7F3FA /* RootViewController.swift */,
+				58793742218B722500219BAD /* Redux.swift */,
 				58B34E03218B428A00F7F3FA /* Main.storyboard */,
 				58B34E06218B428B00F7F3FA /* Assets.xcassets */,
 				58B34E08218B428B00F7F3FA /* LaunchScreen.storyboard */,
 				58B34E0B218B428B00F7F3FA /* Info.plist */,
+				58B34E32218B471100F7F3FA /* Podfile */,
 			);
 			path = ReduxTest;
 			sourceTree = "<group>";
@@ -125,6 +184,42 @@
 			path = ReduxTestUITests;
 			sourceTree = "<group>";
 		};
+		58B34E2D218B42AB00F7F3FA /* State */ = {
+			isa = PBXGroup;
+			children = (
+				58793747218B72BC00219BAD /* AppState.swift */,
+				58793749218B731300219BAD /* NavigationState.swift */,
+			);
+			path = State;
+			sourceTree = "<group>";
+		};
+		58B34E2E218B42B800F7F3FA /* Action */ = {
+			isa = PBXGroup;
+			children = (
+				5879374D218B751E00219BAD /* NavigationAction.swift */,
+			);
+			path = Action;
+			sourceTree = "<group>";
+		};
+		58B34E2F218B42BE00F7F3FA /* Reducer */ = {
+			isa = PBXGroup;
+			children = (
+				58793745218B725C00219BAD /* AppReducer.swift */,
+				5879374B218B747800219BAD /* NavigationReducer.swift */,
+			);
+			path = Reducer;
+			sourceTree = "<group>";
+		};
+		CBCBA8694EBE629A859F1E94 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2DF4DC4AA78D0BE6BC501027 /* Pods_ReduxTest.framework */,
+				9D908AD8A4242ABA6018E4FB /* Pods_ReduxTestTests.framework */,
+				4B143C05B440F5B5FC3F21B5 /* Pods_ReduxTestUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +227,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 58B34E24218B428C00F7F3FA /* Build configuration list for PBXNativeTarget "ReduxTest" */;
 			buildPhases = (
+				1000511FD9CC9881E05AC714 /* [CP] Check Pods Manifest.lock */,
 				58B34DF8218B428A00F7F3FA /* Sources */,
 				58B34DF9218B428A00F7F3FA /* Frameworks */,
 				58B34DFA218B428A00F7F3FA /* Resources */,
+				B0F183AAA2D6D19444A4DB57 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -149,6 +246,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 58B34E27218B428C00F7F3FA /* Build configuration list for PBXNativeTarget "ReduxTestTests" */;
 			buildPhases = (
+				BF1EA5D4E5B3ED5B2CF03A75 /* [CP] Check Pods Manifest.lock */,
 				58B34E0C218B428B00F7F3FA /* Sources */,
 				58B34E0D218B428B00F7F3FA /* Frameworks */,
 				58B34E0E218B428B00F7F3FA /* Resources */,
@@ -167,6 +265,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 58B34E2A218B428C00F7F3FA /* Build configuration list for PBXNativeTarget "ReduxTestUITests" */;
 			buildPhases = (
+				79C666B533FD2CF0980FCED2 /* [CP] Check Pods Manifest.lock */,
 				58B34E17218B428C00F7F3FA /* Sources */,
 				58B34E18218B428C00F7F3FA /* Frameworks */,
 				58B34E19218B428C00F7F3FA /* Resources */,
@@ -231,6 +330,7 @@
 			files = (
 				58B34E0A218B428B00F7F3FA /* LaunchScreen.storyboard in Resources */,
 				58B34E07218B428B00F7F3FA /* Assets.xcassets in Resources */,
+				58B34E33218B471100F7F3FA /* Podfile in Resources */,
 				58B34E05218B428A00F7F3FA /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -251,13 +351,110 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1000511FD9CC9881E05AC714 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ReduxTest-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		79C666B533FD2CF0980FCED2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ReduxTestUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B0F183AAA2D6D19444A4DB57 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-ReduxTest/Pods-ReduxTest-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/ReSwift/ReSwift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ReSwift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ReduxTest/Pods-ReduxTest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BF1EA5D4E5B3ED5B2CF03A75 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ReduxTestTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		58B34DF8218B428A00F7F3FA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				58B34E02218B428A00F7F3FA /* ViewController.swift in Sources */,
+				58B34E02218B428A00F7F3FA /* RootViewController.swift in Sources */,
+				5879374A218B731300219BAD /* NavigationState.swift in Sources */,
+				58793748218B72BC00219BAD /* AppState.swift in Sources */,
 				58B34E00218B428A00F7F3FA /* AppDelegate.swift in Sources */,
+				58793746218B725C00219BAD /* AppReducer.swift in Sources */,
+				58793743218B722500219BAD /* Redux.swift in Sources */,
+				5879374C218B747800219BAD /* NavigationReducer.swift in Sources */,
+				5879374E218B751E00219BAD /* NavigationAction.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,6 +494,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				58B34E04218B428A00F7F3FA /* Base */,
+				5879373F218B686E00219BAD /* zh-Hant */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -305,6 +503,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				58B34E09218B428B00F7F3FA /* Base */,
+				58793740218B686E00219BAD /* zh-Hant */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -316,6 +515,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -377,6 +577,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -430,6 +631,7 @@
 		};
 		58B34E25218B428C00F7F3FA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5624D23D82877EAB3A193992 /* Pods-ReduxTest.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -448,6 +650,7 @@
 		};
 		58B34E26218B428C00F7F3FA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 160706D6DAE0F3BC42025E54 /* Pods-ReduxTest.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -466,6 +669,7 @@
 		};
 		58B34E28218B428C00F7F3FA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 89EF8EDFF850A71D72FF7F63 /* Pods-ReduxTestTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -487,6 +691,7 @@
 		};
 		58B34E29218B428C00F7F3FA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8930C0062E0F318DCC2862AA /* Pods-ReduxTestTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -508,6 +713,7 @@
 		};
 		58B34E2B218B428C00F7F3FA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 50CA9963E81DEBF5AB20B272 /* Pods-ReduxTestUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -528,6 +734,7 @@
 		};
 		58B34E2C218B428C00F7F3FA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 85C43D8C3CD60E6899771D83 /* Pods-ReduxTestUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
