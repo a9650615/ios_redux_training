@@ -11,6 +11,7 @@ import ReSwift
 
 struct NavigationState: StateType {
     var nowRoute: String? = nil
+    var allRoutes: Array<String> = []
     var nowBoard: String! = "Main"
     var type: String! = "push"
 }

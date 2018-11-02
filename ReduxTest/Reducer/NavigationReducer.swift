@@ -13,8 +13,13 @@ func navigationReducer(action: Action, state: NavigationState?) -> NavigationSta
     
     switch action {
     case let action as GoToViewAction:
+        state.allRoutes.append(action.targetView ?? "")
         state.nowRoute = action.targetView
         state.nowBoard = action.targetBoard
+        state.type = action.type
+    case let action as BackViewAction:
+        _ = state.allRoutes.popLast()
+        state.nowRoute = state.allRoutes.last
         state.type = action.type
     default:
         state.nowRoute = nil

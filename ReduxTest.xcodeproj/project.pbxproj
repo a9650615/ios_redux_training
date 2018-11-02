@@ -13,6 +13,7 @@
 		5879374A218B731300219BAD /* NavigationState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58793749218B731300219BAD /* NavigationState.swift */; };
 		5879374C218B747800219BAD /* NavigationReducer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5879374B218B747800219BAD /* NavigationReducer.swift */; };
 		5879374E218B751E00219BAD /* NavigationAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5879374D218B751E00219BAD /* NavigationAction.swift */; };
+		58793754218C0A9A00219BAD /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58793753218C0A9A00219BAD /* StartViewController.swift */; };
 		58B34E00218B428A00F7F3FA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58B34DFF218B428A00F7F3FA /* AppDelegate.swift */; };
 		58B34E02218B428A00F7F3FA /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58B34E01218B428A00F7F3FA /* RootViewController.swift */; };
 		58B34E05218B428A00F7F3FA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 58B34E03218B428A00F7F3FA /* Main.storyboard */; };
@@ -57,6 +58,7 @@
 		58793749218B731300219BAD /* NavigationState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationState.swift; sourceTree = "<group>"; };
 		5879374B218B747800219BAD /* NavigationReducer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationReducer.swift; sourceTree = "<group>"; };
 		5879374D218B751E00219BAD /* NavigationAction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationAction.swift; sourceTree = "<group>"; };
+		58793753218C0A9A00219BAD /* StartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartViewController.swift; sourceTree = "<group>"; };
 		58B34DFC218B428A00F7F3FA /* ReduxTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReduxTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		58B34DFF218B428A00F7F3FA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		58B34E01218B428A00F7F3FA /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
@@ -125,6 +127,14 @@
 			path = Components;
 			sourceTree = "<group>";
 		};
+		58793750218C0A5300219BAD /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				58793753218C0A9A00219BAD /* StartViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
 		58B34DF3218B428A00F7F3FA = {
 			isa = PBXGroup;
 			children = (
@@ -150,6 +160,7 @@
 		58B34DFE218B428A00F7F3FA /* ReduxTest */ = {
 			isa = PBXGroup;
 			children = (
+				58793750218C0A5300219BAD /* Controller */,
 				58793741218B68DE00219BAD /* Components */,
 				58B34E2F218B42BE00F7F3FA /* Reducer */,
 				58B34E2E218B42B800F7F3FA /* Action */,
@@ -452,6 +463,7 @@
 				58793748218B72BC00219BAD /* AppState.swift in Sources */,
 				58B34E00218B428A00F7F3FA /* AppDelegate.swift in Sources */,
 				58793746218B725C00219BAD /* AppReducer.swift in Sources */,
+				58793754218C0A9A00219BAD /* StartViewController.swift in Sources */,
 				58793743218B722500219BAD /* Redux.swift in Sources */,
 				5879374C218B747800219BAD /* NavigationReducer.swift in Sources */,
 				5879374E218B751E00219BAD /* NavigationAction.swift in Sources */,

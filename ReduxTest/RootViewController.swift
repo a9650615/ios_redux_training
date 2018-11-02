@@ -34,11 +34,13 @@ extension RootViewController: StoreSubscriber {
     typealias StoreSubscriberStateType = NavigationState
     
     func newState(state: NavigationState) {
+        print(state)
         if (state.type == "push" && !(state.nowRoute ?? "").isEmpty) {
             print("go to \(String(describing: state.nowRoute)) page")
             gotoView(String(state.nowRoute ?? ""))
-        } else {
-            print("no page")
+        } else if (state.type == "pop") {
+            print("pop")
+            _ = self.popViewController(animated: true)
         }
     }
 }

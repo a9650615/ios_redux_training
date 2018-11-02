@@ -21,3 +21,7 @@ struct GoToViewAction: Action {
     let targetBoard: String! = "Main"
     let type: String! = "push"
 }
+
+struct BackViewAction: Action {
+    let type: String! = "pop"
+}
